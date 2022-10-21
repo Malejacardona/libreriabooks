@@ -18,3 +18,46 @@
     /* Para poner una imagen de fondo */
     --fondo:url('../images/background.jpg')
 }
+
+/* Selector universal (*) */
+/* Aplica a todas las etiquetas (section, footer, div..) ayuda a calcular margenes y espaciados entre elementos */
+*{
+    box-sizing: border-box;
+}
+
+/* La anotación de una clase en css es (.) */
+.home-wrapper{
+    background-image: url('/images/categorias/book2.jpg');
+    /* Cover pone la imagen del tamaño de la caja, contenedor, etc */
+    background-size: cover;
+}
+
+/* Header es un selector de etiqueta en el css */
+header{
+    width: 100%;
+    background-color: var(--encabezado);
+    /* Posisición fija */
+    position: fixed;
+    /* Padding es una margen interna, el 10px es para las margenes de arriba y abajo, y el 0 para las margenes de derecha e izquierda */
+    padding: 10px 0;
+}
+
+/* Combinación de selectores de etiqueta e css */
+/* Poner la barra nav a la derecha */
+header nav{
+    float: right;
+    /* margin-top: 8px; */
+}
+
+/* Alto de la imagen del logo */
+header img{
+    width: 200px;
+}
+
+/* Cambiar los estilos predeterminados de los enlaces del menú ancla */
+header nav a{
+    text-decoration: none;
+    color: var(--enlace);
+    margin-left: 6px;
+}
+
