@@ -61,3 +61,130 @@ header nav a{
     margin-left: 6px;
 }
 
+header nav a:hover{
+    color: var(--enlacesobre);
+}
+
+/* Sección home, con un identificador en css (#) */
+#home{
+    text-align: center;
+    padding: 250px 0 250px;
+}
+
+/* Estilo del texto "promociones titulos de terror" en el home */
+#home p{
+    margin-top: 50px;
+    color: rgb(1,1,1);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#home h1{
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #000;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    /* lo siguiente crea margenes en el primer número es superior */
+    padding: 80px 0;
+}
+
+section h2{
+    text-align: center;
+    /* Espacio entre el título y la imagen */
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+/* Sección novedades */
+#novedades .box{
+    /* Esto hace que la sección novedades sea de forma horizontal, como en cajones */
+    display: inline-block;
+    width: 33%;
+    /* Espaciado entre bloques */
+    padding: 8px;
+}
+
+/* Justificando el texto de las novedades */
+#novedades .box p{
+    text-align: justify;
+}
+
+/* Estilo de los iconos de las novedades */
+#novedades .box img{
+    padding-left: 30%;
+    padding-bottom: 10px;
+}
+
+/* Centrar los titulos de las novedades */
+#novedades .box h3{
+    text-align: center;
+}
+
+/* Sección categoría */
+#categoria .box{
+    width: 33%;
+    display: inline-block;
+    padding: 8px;
+}
+
+/* Estilo de imagenes de la sección categoría */
+#categoria .box img{
+    width: 100%;
+}
+
+/* Estilo de los textos de las categorías */
+#categoria .box p{
+    text-align: justify;
+}
+
+#categoria .box h3{
+    text-align: center;
+}
+
+/* Sección contacto */
+#contacto{
+    background-image: url(/images/map-image.png);
+    background-color: #000;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contacto h2{
+    color: #fff;
+}
+
+#contacto input, select, textarea{
+    width: 600px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Margenes al mapa */
+iframe{
+    /* Margen superior */
+    margin-top: 20px;
+    /* Margen inferior */
+    margin-bottom: 10px;
+}
+
+/* Footer o pie de página */
+footer{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    background-color: var(--piepagina);
+}
+
